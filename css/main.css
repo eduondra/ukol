@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.nadpis {
+    font-family: Behtix;
+    letter-spacing: 2pt;
+    font-size: 50pt;
+    margin: 0;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 5em;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.692);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jmeno {
+    color: rgb(150, 160, 160);
+    position: relative;
+    float: left;
+    display: block;
+    width: 225px;
+    left: 150px;
+    font-family: Behtix;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+@font-face {
+    font-family: Behtix;
+    src: url("Behtix.ttf");
+}
+
+.links {
+    float: right;
+    position: relative;
+    right: 200px;
+}
+
+ul,
+li {
+    display: inline;
+    color: rgb(150, 160, 160);
+}
+
+li {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.text2 {
+    color: rgb(150, 160, 160);
+}
